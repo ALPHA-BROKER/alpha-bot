@@ -12,7 +12,6 @@ async function handleRequest(request: Request): Promise<Response> {
   });
 
   if (request.method === "OPTIONS") {
-    // Respond to CORS preflight requests
     return new Response(null, { headers });
   }
 
