@@ -7,7 +7,7 @@ export async function handleStartCommand(
   try {
     // Формируем тело запроса
     const requestBody = {
-      telegramId: chatId,
+      id: chatId,
       username: username || "unknown",
       code: "123456", // Пример статического кода, если он не изменяется
     };
