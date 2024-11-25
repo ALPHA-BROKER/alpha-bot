@@ -1,6 +1,17 @@
 {
   "name": "tele-bot",
   "version": "1.0.0",
-  "private": true
-  
+  "private": true,
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": [
+      "esnext",
+      "webworker"
+    ],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
 }
